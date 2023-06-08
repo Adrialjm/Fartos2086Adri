@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#d0eff4">
+
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="266dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="FartOS 2086"
+        android:textAlignment="center"
+        android:textColor="#878787"
+        android:textSize="32sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="El mundo ha sido destruido, la Vida en la ciudad de Fartos se ha convertido en una batalla despiadada para eliminar el resto
+de población con el objetivo de ser la primera persona en llegar al Hangar de la salvación. \n\n
+
+Insertad el nombre de vuestros supervivientes:"
+        android:textAlignment="center"
+        android:textColor="#878787"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/players_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/buttonAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BC8585"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:text="Añadir" />
+
+        <Button
+            android:id="@+id/buttonEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BC8585"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F84a4e"
+            android:textSize="15sp"
+            android:text="Empezar" />
+</LinearLayout>
+
+
+</LinearLayout>
